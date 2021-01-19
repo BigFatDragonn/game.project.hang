@@ -9,11 +9,11 @@ count = 0
 while count < 9:
   letter = input(f"{str(word_2)}\nInput a letter:")
 #count += 1
-index_1 = [str(i) for i, e in enumerate(word_1) if e == letter]  
-for index_num in index_1:
-  temp_list[int(index_num)] = letter
-  word_2 = "".join(temp_list)
-print(word_2) 
+  index_1 = [str(i) for i, e in enumerate(word_1) if e == letter]  
+  for index_num in index_1:
+    temp_list[int(index_num)] = letter
+    word_2 = "".join(temp_list)
+  #print(word_2) 
     
         #and count < 3:
         #index_1 = word_1.index(letter)
