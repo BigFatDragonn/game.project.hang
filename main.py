@@ -13,7 +13,7 @@ while count < 3:
   for index_num in index_1:
     temp_list[int(index_num)] = letter
     word_2 = "".join(temp_list)
-  if letter != list(word_1) and count < 3:
+  if letter not in list(word_1) and count < 3:
     print("The letter dosen't apear in the word\n")
   elif count == 3:
     print("Thanks for playing!\nWe'll see how well you did in the next stage\n")
